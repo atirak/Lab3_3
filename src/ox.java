@@ -85,6 +85,7 @@ public class ox {
                 colWin = false;
             }
         }if(colWin) {
+            turnCount=0;
             return true;
         }
         boolean rowWin = true;
@@ -93,6 +94,7 @@ public class ox {
                 rowWin = false;
             }
         }if(rowWin) {
+            turnCount=0;
             return true;
         }
         boolean esWin = true;
@@ -101,6 +103,7 @@ public class ox {
                 esWin = false;
             }
         }if(esWin) {
+            turnCount=0;
             return true;
         }
         boolean ssWin = true;
@@ -109,6 +112,7 @@ public class ox {
                 ssWin = false;
             }
         }if(ssWin) {
+            turnCount=0;
             return true;
         }
         return false;
